@@ -1,0 +1,59 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
+}
+input:focus{
+  outline: none;
+}
+
+
+.bg-facebook{
+  background:  rgb(59, 89, 152);
+}
+.bg-twitter{
+  background: rgb(85, 172, 238);
+}
+.bg-google-plus{
+  background: rgb(234, 76, 137);
+}
+
+.btn {
+  border-radius: 30px;
+}
+
+.form-control {
+  background: transparent;
+  border-radius: 30px;
+  border: 1px solid #eeeeee;
+}
+.form-control:focus {
+  background: transparent;
+  outline: 0 !important;
+  border: 1px solid #ffffff;
+  box-shadow: none;
+}
+.bg-facebook{
+  background:  rgb(59, 89, 152);
+}
+.bg-twitter{
+  background: rgb(85, 172, 238);
+}
+.bg-google-plus{
+  background: rgb(234, 76, 137);
+}
+.overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: black;
+  opacity: .6;
+  z-index: 2;
+}
